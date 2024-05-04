@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+<!-- Barra de navegación -->
+<nav class="navbar is-info is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <!-- Título y logo -->
+      <a class="navbar-item" href="#">
+        <h1 class="title is-4"></h1>
+      </a>
+      <!-- Menú -->
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html">Inicio</a>
+          <a class="navbar-item" href="negocios.html">Negocios</a>
+          <a class="navbar-item" href="deportes.html">Deportes</a>
+          <a class="navbar-item" href="cultura.html">Cultura</a>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <body class="has-background-primary">
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h1 class="title has-text-centered">Registro de Usuario</h1>
+          <form action="register.php" method="post">
+            <div class="field">
+              <label class="label">Nombre de Usuario</label>
+              <div class="control">
+                <input class="input" type="text" name="username" placeholder="Ingrese su nombre de usuario" required>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Correo Electrónico</label>
+              <div class="control">
+                <input class="input" type="email" name="email" placeholder="Ingrese su correo electrónico" required>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Contraseña</label>
+              <div class="control">
+                <input class="input" type="password" name="password" placeholder="Ingrese su contraseña" required>
+              </div>
+            </div>
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-primary" type="submit">Registrarse</button>
+              </div>
+              <div class="control">
+                <button class="button is-text" type="reset">Limpiar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <p>
+              <strong>El Faro</strong> &copy; 2024. Todos los derechos reservados.
+            </p>
+            <p>
+              <a href="index.html">Inicio</a> |
+              <a href="negocios.html">Noticias</a> |
+              <a href="deportes.html">Deportes</a> |
+              <a href="negocios.html">Negocios</a> |
+              <a href="cultura.html">Cultura</a> |
+              <a href="#">Opinión</a> |
+              <a href="#">Contacto</a>
+            </p>
+            <p>
+              Síguenos en:
+              <a href="#">Facebook</a> |
+              <a href="#">Twitter</a> |
+              <a href="#">Instagram</a>
+            </p>
+          </div>
+        </footer>
+</body>
+</html>
